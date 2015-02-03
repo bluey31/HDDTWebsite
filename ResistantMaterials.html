@@ -1,29 +1,63 @@
 <!DOCTYPE HTML>
 <html>
-
 <meta charset="UTF-8">
 
 <title>Highdown D&T - Resistant Materials</title>
 
 <STYLE>
-
+#bodyblock {
+    background: #ffffff;
+    display:block;
+    position:fixed;
+    top: 240px;
+    left: 5%;
+    right: 5%;
+    height 100px;
+    z-index: 1;
+    margin-right: 10;
+    
+}
+#bodycontent {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    height: 100%;
+    overflow-y: scroll;
+    position: absolute;
+    z-index: 1;
+    
+}
 #gallery-background {
     position: absolute;
 
-    top: 0;
+    top: 100px;
     left: 0;
     bottom: 0;
     right: 0;
 
     z-index: -1;
 
-    background-image: url(file:///Users/Brendon/Documents/HDDTWebsite/Graphics/material\ bg\ is\ c7c7c7.png); /* background url goes here */
+    background-image: url("/graphics/material%20bg%20is%20c7c7c7.png"); /* background url goes here */
     background-repeat:no-repeat;
     background-size:cover;
     background-position: center; 
     background-color: #c7c7c7;
 }
-
+#titlebg {
+    top: -20px;
+    left: -50px;
+    display: block;
+    position:fixed;
+    height: 120px;
+    width: 200%;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #3e2723;
+    text-align: center;
+    
+    
+    
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -43,13 +77,21 @@ ul {
 <!-- HTML here -->
 
 <div id="gallery-background"></div>
-
+<div id="titlebg"></div>
 <ul class="stickyNavBar">
   <li><a>OBJECT 1</a></li>
   <li><a>OBJECT 2</a></li>
   <li><a>OBJECT 3</a></li>
-</ul> 
+</ul>
 
+<div id="bodyblock">
+    <div id="bodycontent">
+        conteeent
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        content
+ 
+    </div>
+</div> 
 </body>
 
 </html>
