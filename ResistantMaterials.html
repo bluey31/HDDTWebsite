@@ -12,23 +12,44 @@
     top: 240px;
     left: 5%;
     right: 5%;
-    height 100px;
     z-index: 1;
     margin-right: 10;
     
 }
-#bodycontent {
-    margin-left: 20px;
-    margin-right: 20px;
+#highdownlogo{
+    margin-top: 10px;
+    margin-left:20px;
+    background-image: url("/graphics/highdown%20100x%20white.png");
+    height: 70px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    }
+#highdowntitle {
+    font-size: 45px;
+    font-family: roboto;
+    color: #ffffff;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+#pagetitle{
+    font-family: Roboto;
+    font-size: 72px;
+    text-align: center;
     margin-top: 20px;
-    height: 100%;
-    overflow-y: scroll;
-    position: absolute;
-    z-index: 1;
+    color: #ffffff;
+}
+#bodycontent {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%;
+    color: #000000;
+    text-align: left;
+    font-family: roboto light;
+    font-size: 20px;
     
 }
 #gallery-background {
-    position: absolute;
+    position: fixed;
 
     top: 100px;
     left: 0;
@@ -75,23 +96,30 @@ ul {
 
 <body>
 <!-- HTML here -->
-
-<div id="gallery-background"></div>
-<div id="titlebg"></div>
-<ul class="stickyNavBar">
-  <li><a>OBJECT 1</a></li>
-  <li><a>OBJECT 2</a></li>
-  <li><a>OBJECT 3</a></li>
-</ul>
-
-<div id="bodyblock">
-    <div id="bodycontent">
-        conteeent
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        content
- 
+<div id="highdownlogo">
+<div id="highdowntitle">
+    Highdown School DT
+</div>
     </div>
-</div> 
+<div id="gallery-background">   
+    <div id="titlebg"></div>
+        <div id="pagetitle">
+            Resistant Materials
+            <div id="bodyblock">
+                <div id="bodycontent">
+                    <h1>content title</h1>
+                    <p></p>
+                    content
+                    <p></p>
+                    more
+                    <p></p>
+                    snazzy
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>v
+                </div>
+            </div>
+        </div> 
+    
+</div>
 </body>
 
 </html>
