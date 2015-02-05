@@ -5,17 +5,36 @@
 <title>Highdown D&T - Resistant Materials</title>
 
 <STYLE>
+#anim:hover{
+    opacity: 0;
+    background: #cccccc;
+}
+#vertalign{
+
+  position: inherit;
+  top: 10px;
+  transform: translateY(-50px);
+}
 #blocks{
     background: #523732;
     display: block;
-    
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 100px;
+    width: 10%;
+    float: right;
+    margin-top: -10px;
+    z-index: 2;
+    text-align: center;
+    color: #ffffff;
+    font-family: roboto;
 }
 #bodyblock {
     background: #ffffff;
     display:block;
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 25px;
+    margin-bottom: 25%;
     z-index: 1;
     
 }
@@ -32,7 +51,8 @@
     font-family: roboto;
     color: #ffffff;
     margin-left: 100px;
-    margin-top: 15px;
+    margin-top: 8px;
+    position: absolute;
 }
 #pagetitle{
     font-family: Roboto;
@@ -100,11 +120,27 @@ ul {
 
 <body>
 <!-- HTML here -->
+    <div id ="anim">
+        <div id="blocks">
+            
+            Home
+            
+        </div>
+    </div>
+        <div id="blocks">
+            GCSE Courses
+        </div>
+        <div id="blocks">
+            Contact
+        </div>
+    
 <div id="highdownlogo">
+    
 <div id="highdowntitle">
     Highdown School DT
+    
 </div>
-    </div>
+    
 <div id="gallery-background">   
     <div id="titlebg"></div>
         <div id="pagetitle">
