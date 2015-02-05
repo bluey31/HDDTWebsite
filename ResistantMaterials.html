@@ -5,9 +5,18 @@
 <title>Highdown D&T - Resistant Materials</title>
 
 <STYLE>
-#anim:hover{
+#blocks:hover{
+    height: 400px;
+}
+#dropdown {
+    float: right;
+ display: block;
+    position: absolute;
+    width: 200px;
+    height: 100px;
     opacity: 0;
-    background: #cccccc;
+    background-color: #000000;
+
 }
 #vertalign{
 
@@ -15,6 +24,7 @@
   top: 10px;
   transform: translateY(-50px);
 }
+
 #blocks{
     background: #523732;
     display: block;
@@ -28,6 +38,11 @@
     text-align: center;
     color: #ffffff;
     font-family: roboto;
+    transition: height 0.2s;
+    -webkit-transition: height 0.2s;
+    bad attmept at a dropdown
+    
+   /* -webkit-transition: height 0.2s;*/
 }
 #bodyblock {
     background: #ffffff;
@@ -81,10 +96,7 @@
     right: 0;
     overflow-y: scroll;
     z-index: -1;
-
-
     background-image: url("https://www.dropbox.com/s/zhaej83xig0uy6n/material%20bg%20is%20c7c7c7.png?dl=1"); /* background url goes here */
-
     background-repeat:no-repeat;
     background-size:cover;
     background-position: center; 
@@ -122,13 +134,10 @@ ul {
 
 <body>
 <!-- HTML here -->
-    <div id ="anim">
+    <div id="dropdown"></div>
         <div id="blocks">
-            
             Home
-            
         </div>
-    </div>
         <div id="blocks">
             GCSE Courses
         </div>

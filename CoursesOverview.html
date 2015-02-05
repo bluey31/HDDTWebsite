@@ -8,27 +8,107 @@
 <style>
 /*Write your CSS here */
 
-#gallery-background {
-    position: absolute;
+#anim:hover{
+    opacity: 0;
+    background: #cccccc;
+}
+#vertalign{
 
-    top: 0;
+  position: inherit;
+  top: 10px;
+  transform: translateY(-50px);
+}
+#blocks{
+    background: #523732;
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 100px;
+    width: 10%;
+    float: right;
+    margin-top: -10px;
+    z-index: 2;
+    text-align: center;
+    color: #ffffff;
+    font-family: roboto;
+}
+#bodyblock {
+    background: #ffffff;
+    display:block;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 25%;
+    z-index: 1;
+    
+}
+#highdownlogo{
+    margin-top: 10px;
+    margin-left:20px;
+    background-image: url("https://www.dropbox.com/s/5miq5rfpxf8qabf/highdown%20100x%20white.png?dl=1");
+    height: 70px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    }
+#highdowntitle {
+    font-size: 45px;
+    font-family: roboto;
+    color: #ffffff;
+    margin-left: 100px;
+    margin-top: 8px;
+    position: absolute;
+}
+#pagetitle{
+    font-family: Roboto;
+    font-size: 72px;
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+}
+#bodycontent {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #000000;
+    text-align: left;
+    font-family: roboto light;
+    font-size: 20px;
+    
+}
+#gallery-background {
+    position: fixed;
+
+    top: 100px;
     left: 0;
     bottom: 0;
     right: 0;
-
+    overflow-y: scroll;
     z-index: -1;
-
-    background-image: url(); /* background url goes here */
+    background-image: url("https://www.dropbox.com/s/zhaej83xig0uy6n/material%20bg%20is%20c7c7c7.png?dl=1"); /* background url goes here */
     background-repeat:no-repeat;
     background-size:cover;
     background-position: center; 
     background-color: #c7c7c7;
 }
-
+#titlebg {
+    top: -20px;
+    left: -50px;
+    display: block;
+    position:fixed;
+    height: 120px;
+    width: 200%;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #3e2723;
+    text-align: center;
+    
+    
+    
+}
 ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-left: 30px;
 } 
 
 .stickyNavBar{
@@ -42,15 +122,68 @@ ul {
 
 <body>
 <!-- HTML here -->
+    <div id ="anim">
+        <div id="blocks">
+            
+            Home
+            
+        </div>
+    </div>
+        <div id="blocks">
+            GCSE Courses
+        </div>
+        <div id="blocks">
+            Contact
+        </div>
+    
+<div id="highdownlogo">
+    
+<div id="highdowntitle">
+    Highdown School DT
+    
+</div>
+    
+<div id="gallery-background">   
+    <div id="titlebg"></div>
+        <div id="pagetitle">
+            GCSE Courses
+            <div id="bodyblock">
+                <div id="bodycontent">
+                    <br>
+                    <h1>Course Information</h1>
+                    <p></p>                             
 
-<div id="gallery-background"></div>
+                    <p><b>Why study D&T?</b></P>
 
-<ul class="stickyNavBar">
-  <li><a>OBJECT 1</a></li>
-  <li><a>OBJECT 2</a></li>
-  <li><a>OBJECT 3</a></li>
-</ul> 
+In D&T, students experience a broad & balanced curriculum, covering a range of material disciplines, providing opportunities for developing a variety of transferable life skills. Students studying D&T increase their independence through project planning, time management, and innovative responses to briefs, benefiting all students, not only in their future careers, but throughout their lives.
 
+Our learners are inspirational and resilient creators with a thirst for knowledge, who can integrate cross curricular skills and apply these in response to the challenges set. They consider the impact on the wider world, including environmental and moral issues, to design and create imaginative and sustainable products.
+
+
+    A GCSE in D&T can lead to  wide variety of A level and degree options, opening up career pathways for all of our students. Interested? Take a look at one of our courses...
+<br>
+
+<P>How will I be assessed?
+Written examination – 2 hours (40%)
+Design folder and practical project – controlled assessment (60%)</p>
+                <p>text</p>
+                 <p>text</p>
+                 <p>text</p>
+                 <p>text</p>
+                 <p>text</p>
+                 <p>text</p>
+                 <p>text</p>
+                 <p>text</p>
+                 <p>text</p>
+                 <p>text</p>
+                 <p>text</p>
+                <p><b>You've fixed the scrolling if you can read this hopefully!</b></p>
+                
+                </div>
+            </div>
+        </div> 
+    
+</div>
 </body>
 
 </html>
