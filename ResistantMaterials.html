@@ -5,16 +5,7 @@
 <title>Highdown D&T - Resistant Materials</title>
 
 <STYLE>
-#anim:hover{
-    opacity: 0;
-    background: #cccccc;
-}
-#vertalign{
 
-  position: inherit;
-  top: 10px;
-  transform: translateY(-50px);
-}
 #blocks{
     background: #523732;
     display: block;
@@ -39,6 +30,18 @@
 
 span{ 
     line-height:100px; 
+}
+
+
+#dropdown {
+    float: right;
+ display: block;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    opacity: 0;
+    background-color: #000000;
+
 }
 
 #bodyblock {
@@ -66,6 +69,7 @@ span{
     margin-left: 100px;
     line-height:80px; 
 }
+
 
 #pagetitle{
     font-family: Roboto;
@@ -130,8 +134,7 @@ ul {
 
 <body>
 <!-- HTML here -->
-    <div id ="anim">
-
+    <div id ="dropdown">
         <div id="blocks">
             <span></span>
             <div id="taskbarText">Home</div>
