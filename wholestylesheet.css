@@ -1,0 +1,248 @@
+<!--#blocks{
+    background: #412c29;
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 100px;
+    width: 10%;
+    float: right;
+    margin-top: -10px;
+    position: sticky;      
+    text-align: center;
+    color: #ffffff;
+    font-family: roboto;
+    transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+
+}
+#blocksanim{
+    background: #412c29;
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 100px;
+    width: 10%;
+    float: right;
+    margin-top: -10px;
+    z-index: 2;
+    text-align: center;
+    color: #ffffff;
+    font-family: roboto;
+    transition: height 0.3s, width 0.3s, background-color 0.5s;
+    -webkit-transition: height 0.3s, width 0.3s, background-color 0.5s;
+
+}
+#testblocksanim{
+    background: #412c29;
+    display: block;
+    opacity: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 100px;
+    width: 10%;
+    float: right;
+    margin-top: -10px;
+    z-index: 2;
+    text-align: center;
+    color: #ffffff;
+    font-family: roboto;
+    transition: height 0.3s, width 0.3s, background-color 0.5s, opacity 0.4s;
+    -webkit-transition: height 0.3s, width 0.3s, background-color 0.5s, opacity 0.4s; 
+
+}
+ #testblocksanim:hover{
+    opacity: 1;
+        height: 500px;
+        width: 200px;
+        background-color: #6a504b;
+    }
+
+#blocksanim:hover{
+    height: 500px;
+    width: 20%;
+    background-color: #6a504b;
+} -->
+#dropdowntext {
+    opacity: 0;
+    <!---display: block;-->
+    height: 500px;`
+    margin-top: 90px;
+    color: #ffffff;
+    z-index: 2;
+    font-family: roboto;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+}
+<!--#blocks:hover {
+    background-color: #6a504b;
+}-->
+
+#taskbartext{
+    text-align: center;
+    vertical-align: middle;
+    display:inline-block;   
+    color: #ffffff;
+}
+#taskbartextgcse{
+    text-align: center;
+    vertical-align: middle;
+    display:inline-block;   
+    color: #ffffff;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+/*span{ 
+    line-height:100px; 
+}
+    */
+    
+#bodyblock {
+    background: #ffffff;
+    display:block;
+    margin-left: 5%;
+    margin-right: 5%;
+    bottom: -10px;
+    z-index: 1;
+    
+}
+#highdownlogo{
+    margin-top: 10px;
+    margin-left:20px;
+    background-image: url("https://www.dropbox.com/s/5miq5rfpxf8qabf/highdown%20100x%20white.png?dl=1");
+    height: 70px;
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+#highdowntitle {
+    font-size: 2vw;
+    font-family: roboto;
+    color: #ffffff;
+    margin-left: 100px;
+    line-height:80px; 
+}
+
+
+#pagetitle{
+    font-family: Roboto;
+    font-size: 72px;
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+}
+#bodycontent {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    bottom: 25px;
+    color: #000000;
+    text-align: left;
+    font-family: roboto light;
+    font-size: 20px;
+    
+}
+#gallery-background {
+    position: fixed;
+
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow-y: scroll;
+    z-index: -1;
+    background-image: url("https://www.dropbox.com/s/zhaej83xig0uy6n/material%20bg%20is%20c7c7c7.png?dl=1"); /* background url goes here */
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center; 
+    background-color: #c7c7c7;
+}
+#titlebg {
+    top: -20px;
+    left: -50px;
+    display: block;
+    position:fixed;
+    height: 120px;
+    width: 200%;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #3e2723;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+} 
+
+.stickyNavBar{
+	text-align:right;
+	position:fixed;
+	top:0px;
+	width:100%;
+}
+
+/*------- TESTING NEW DROPDOWN FROM WEB---------*/
+    
+ol {
+    text-align: center;
+    vertical-align: middle;
+    display: inline;
+    margin: 0;
+    padding: 15px 4px 17px 0;
+    list-style: none;
+}
+ol li {
+    font: bold 12px/18px sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    top: -10px;
+    margin-right: -4px;
+    position: relative;
+    padding: 41px 4vw;
+    background: #3e2723;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+ol li:hover {
+    background: #6a504b;
+    color: #ffffff;
+}
+ol li ol {
+    padding: 0;
+    position: absolute;
+    top: 110px; /*distance the dropdown is from the top*/
+    left: 0;
+    width: 150px;
+    height: 90px;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transiton: opacity 0.3s, width 0.2s;
+    -moz-transition: opacity 0.3s, width 0.2s;
+    -ms-transition: opacity 0.3s, width 0.2s;
+    -o-transition: opacity 0.3s, width 0.2s;
+    transition: opacity 0.3s, width 0.2s;
+}
+ol li ol li { /*the box that drops down*/
+    background: #6a504b; 
+    display: block; 
+    color: #ffffff;
+    width: 27vw;
+    margin-right:
+    transition: opacity 0.4s, background 0.2s;
+}
+ol li ol li:hover { background: #3e2723; } /* also the box that drops down?*/
+    ol li:hover ol {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    margin-right: 8vw;
+}
