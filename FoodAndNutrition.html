@@ -5,6 +5,12 @@
 <title>Food & Nutrition - Highdown D&T</title>
 <link rel="stylesheet" type="text/css" href="wholestylesheet.css">
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+<!--Add jQuery and fancyBox-->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<link rel="stylesheet" href="fancyBox/source/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="fancyBox/source/jquery.fancybox.pack.js"></script>
+
 <body>
 <body>
 <!-- HTML here -->
@@ -110,8 +116,29 @@
                 </div>
             </div>
         </div> 
-    
+    <a rel="FN-gallery" class="fancybox" href="Graphics/Food%20Nutrition%20Photos/burgers.jpg"><img src="Graphics/Food%20Nutrition%20Photos/burgers.jpg" width="200" height="150"></a>
+
+    <a rel="FN-gallery" class="fancybox" href="Graphics/Food%20Nutrition%20Photos/chocMuffin.jpg"><img src="Graphics/Food%20Nutrition%20Photos/chocMuffin.jpg" width="200" height="150"></a>
+
+    <a rel="FN-gallery" class="fancybox" href="Graphics/Food%20Nutrition%20Photos/gingerCookies.jpg"><img src="Graphics/Food%20Nutrition%20Photos/gingerCookies.jpg" width="200" height="150"></a>
+
+    <a rel="FN-gallery" class="fancybox" href="Graphics/Food%20Nutrition%20Photos/leekBread.jpg"><img src="Graphics/Food%20Nutrition%20Photos/leekBread.jpg" width="200" height="150"></a>
+
+    <a rel="FN-gallery" class="fancybox" href="Graphics/Food%20Nutrition%20Photos/meringues.jpg"><img src="Graphics/Food%20Nutrition%20Photos/meringues.jpg" width="200" height="150"></a>
+
+    <a rel="FN-gallery" class="fancybox" href="Graphics/Food%20Nutrition%20Photos/sausageRolls.jpg"><img src="Graphics/Food%20Nutrition%20Photos/sausageRolls.jpg" width="200" height="150"></a>
+
+    <a rel="FN-gallery" class="fancybox" href="Graphics/Food%20Nutrition%20Photos/scotchEgg.jpg"><img src="Graphics/Food%20Nutrition%20Photos/scotchEgg.jpg" width="200" height="150"></a>
+
+    <a rel="FN-gallery" class="fancybox" href="Graphics/Food%20Nutrition%20Photos/steakPie.jpg"><img src="Graphics/Food%20Nutrition%20Photos/steakPie.jpg" width="200" height="150"></a>
 </div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+$(".fancybox").fancybox();
+});
+</script>
+
 </body>
 
 </html>

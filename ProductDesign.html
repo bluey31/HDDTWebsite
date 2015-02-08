@@ -5,6 +5,12 @@
 <title>Product Design - Highdown D&T</title>
 <link rel="stylesheet" type="text/css" href="wholestylesheet.css">
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+<!--Add jQuery and fancyBox-->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<link rel="stylesheet" href="fancyBox/source/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="fancyBox/source/jquery.fancybox.pack.js"></script>
+
 <body>
 <body>
 <!-- HTML here -->
@@ -92,8 +98,26 @@
                 </div>
             </div>
         </div> 
+
+        <a rel="PD-gallery" class="fancybox" href="Graphics/Product%20Design%20Photos/3dChess.jpg"><img src="Graphics/Product%20Design%20Photos/3dChess.jpg" width="200" height="150"></a>
+
+        <a rel="PD-gallery" class="fancybox" href="Graphics/Product%20Design%20Photos/blueCase.jpg"><img src="Graphics/Product%20Design%20Photos/blueCase.jpg" width="200" height="150"></a>
+
+        <a rel="PD-gallery" class="fancybox" href="Graphics/Product%20Design%20Photos/blueTable.jpg"><img src="Graphics/Product%20Design%20Photos/blueTable.jpg" width="200" height="150"></a>
     
+        <a rel="PD-gallery" class="fancybox" href="Graphics/Product%20Design%20Photos/LEDBox.jpg"><img src="Graphics/Product%20Design%20Photos/LEDBox.jpg" width="200" height="150"></a>
+
+        <a rel="PD-gallery" class="fancybox" href="Graphics/Product%20Design%20Photos/redLamp.jpg"><img src="Graphics/Product%20Design%20Photos/redLamp.jpg" width="200" height="150"></a>
+
+        <a rel="PD-gallery" class="fancybox" href="Graphics/Product%20Design%20Photos/woodenBook.jpg"><img src="Graphics/Product%20Design%20Photos/woodenBook.jpg" width="200" height="150"></a>
 </div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+$(".fancybox").fancybox();
+});
+</script>
+
 </body>
 
 </html>
