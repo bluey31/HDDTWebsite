@@ -277,3 +277,12 @@ ol li ol li:hover { background: #3e2723; } /* also the box that drops down?*/
     visibility: visible;
     margin-right: 7vw;
 }
+
+a{
+    text-decoration: none;
+}
+
+a:visited
+{
+    color:white;
+}
