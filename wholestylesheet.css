@@ -61,10 +61,10 @@
     height: 500px;
     width: 20%;
     background-color: #6a504b;
-} -->
+} 
 #dropdowntext {
     opacity: 0;
-    <!---display: block;-->
+    display: block;
     height: 500px;`
     margin-top: 90px;
     color: #ffffff;
@@ -73,14 +73,38 @@
     transition: opacity 0.5s;
     -webkit-transition: opacity 0.5s;
 }
-<!--#blocks:hover {
+#blocks:hover {
     background-color: #6a504b;
-}-->
+}
 
-#taskbartext{
+html { min-width: 400px; }
+-->
+input {
+    width: 50%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#courses {
     text-align: center;
+    display: block;
+    background-color: #eeeeee;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+#courses:hover {
+    background-color: #bbbbbb;
+}
+
+#center {
+    text-align: center;
+}
+#taskbartext{
+    /*text-align: center;
     vertical-align: middle;
-    display:inline-block;   
+    display:inline-block;*/   
     color: #ffffff;
 }
 #taskbartextgcse{
@@ -88,8 +112,8 @@
     vertical-align: middle;
     display:inline-block;   
     color: #ffffff;
-    margin-top: -10px;
-    margin-bottom: -10px;
+    margin-top: -10px;       /* if the gcse course box doesnt match with the rest change these margins*/
+    margin-bottom: -12px;
 }
 
 /*span{ 
@@ -104,28 +128,35 @@
     margin-right: 5%;
     bottom: -10px;
     z-index: 1;
+    min-width: 400px;
     
 }
 #highdownlogo{
-    margin-top: 10px;
-    margin-left:20px;
+    margin-top: 16px;
+    position: absolute;
+    margin-left:10px;
     background-image: url("https://www.dropbox.com/s/5miq5rfpxf8qabf/highdown%20100x%20white.png?dl=1");
-    height: 70px;
+    height: 50px;
+    width: 50px;
     background-size:contain;
     background-repeat:no-repeat;
 }
 
 #highdowntitle {
-    font-size: 2vw;
-    font-family: roboto;
+    position: absolute;
+    height: 40px;
+    overflow: hidden;
+    vertical-align: middle;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    margin-left: 100px;
-    line-height:80px; 
+    margin-left: 70px;
+    margin-top: 19px;
 }
 
 
 #pagetitle{
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 72px;
     text-align: center;
     margin-top: 20px;
@@ -139,7 +170,7 @@
     bottom: 25px;
     color: #000000;
     text-align: left;
-    font-family: roboto light;
+    font-family: 'Roboto Light', sans-serif;
     font-size: 20px;
     
 }
@@ -191,20 +222,21 @@ ol {
     vertical-align: middle;
     display: inline;
     margin: 0;
-    padding: 15px 4px 17px 0;
+    padding: 15px 1px 17px 0;
     list-style: none;
 }
 ol li {
-    font: bold 12px/18px sans-serif;
+    font: bold 19px sans-serif;
     display: inline-block;
     vertical-align: middle;
     float: right;
-    top: -10px;
-    margin-right: -4px;
+    top: -11px;
+    margin-right: px;
     position: relative;
-    padding: 41px 4vw;
+    padding: 40px 4vw;
     background: #3e2723;
     cursor: pointer;
+    opacity: 0.8;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
@@ -214,14 +246,14 @@ ol li {
 ol li:hover {
     background: #6a504b;
     color: #ffffff;
+    opacity: 1;
 }
 ol li ol {
     padding: 0;
     position: absolute;
-    top: 110px; /*distance the dropdown is from the top*/
-    left: 0;
+    top: 114px; /*distance the dropdown is from the top*/
     width: 150px;
-    height: 90px;
+    height: 50px;
     display: none;
     opacity: 0;
     visibility: hidden;
@@ -236,7 +268,6 @@ ol li ol li { /*the box that drops down*/
     display: block; 
     color: #ffffff;
     width: 27vw;
-    margin-right:
     transition: opacity 0.4s, background 0.2s;
 }
 ol li ol li:hover { background: #3e2723; } /* also the box that drops down?*/
@@ -244,5 +275,5 @@ ol li ol li:hover { background: #3e2723; } /* also the box that drops down?*/
     display: block;
     opacity: 1;
     visibility: visible;
-    margin-right: 8vw;
+    margin-right: 7vw;
 }
