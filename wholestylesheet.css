@@ -76,8 +76,16 @@
 #blocks:hover {
     background-color: #6a504b;
 }
--->
 
+html { min-width: 400px; }
+-->
+input {
+    width: 50%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
 
 #courses {
     text-align: center;
@@ -120,6 +128,7 @@
     margin-right: 5%;
     bottom: -10px;
     z-index: 1;
+    min-width: 400px;
     
 }
 #highdownlogo{
