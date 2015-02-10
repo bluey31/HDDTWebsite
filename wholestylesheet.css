@@ -7,6 +7,11 @@ input { /* the input boxes in the contact page*/
     font-size: 20px;
 }
 
+textarea{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
 #courses { /*the explore courses button in the homepage*/
     text-align: center;
     display: block;
