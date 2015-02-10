@@ -5,42 +5,27 @@
 <title>Food & Nutrition - Highdown D&T</title>
 <link rel="stylesheet" type="text/css" href="wholestylesheet.css">
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+<style>
+    
+    #gallery-background {
+    background-image: url("https://www.dropbox.com/s/mvvicui8qph4fsa/foodtechbg.png?dl=1");
+}    
+    
+</style>
 
 <!--Add jQuery and fancyBox-->
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <link rel="stylesheet" href="fancyBox/source/jquery.fancybox.css" type="text/css" media="screen" />
 <script type="text/javascript" src="fancyBox/source/jquery.fancybox.pack.js"></script>
+<style>
 
+#gallery-background {
+    background-image: url("https://www.dropbox.com/s/mvvicui8qph4fsa/foodtechbg.png?dl=1")
+}    
+</style>
 <body>
 <body>
 <!-- HTML here -->
-      <!--  <div id="testblocksanim">
-            <span></span>
-            <div id="taskbarText">
-            <br><br><br><br>    
-                Test
-                <br>
-                test2
-                <br>
-                test3
-            
-            </div>
-        </div>
-        <div id="blocks">
-            <span></span>
-            <div id="taskbarText">Home</div>               
-        </div>
-        <div id="blocksanim">
-            <span></span>
-            <div id="taskbarText">GCSE<br>Courses</div>
-            <br><br><br><br><br><br><br>
-            dank
-        </div>
-        <div id="blocks">
-            <span></span>
-            <div id="taskbarText">Contact</div>
-        </div>-->
-
     
     <div id="highdownlogo"></div>
     
@@ -49,23 +34,67 @@
 </div>
 
 <ol>
-        <li><div id="taskbartext"><a href="Contact.html">Contact</div></li>
-  <li>
-        <div id="taskbartextgcse"><a href="CoursesOverview.html">GCSE<br>Courses</div>
-    <ol>
-        <li><div id="taskbartext"> <a href="ResistantMaterials.html">Resistant Materials</div></li>
-        <li><div id="taskbartext"> <a href="ProductDesign.html">Product Design</div></li>
-        <li><div id="taskbartext"> <a href="TextilesTechnology.html">Textiles Technology</div></li>
-        <li><div id="taskbartext"> <a href="FoodAndNutrition.html">Food & Nutrition</div></li>
+    <a href="Contact.html">
+        <li>
+            <div id="taskbartext">
+                Contact
+            </div>
+        </li>
+    </a>
+    <a href="CoursesOverview.html">
+        <li>
+            <div id="taskbartextgcse">
+                GCSE
+                <br>
+                Courses
+            </div>
+    
+        <ol>
+            <a href="ResistantMaterials.html">
+                <li>
+                    <div id="taskbartext"> 
+                        Resistant Materials
+                    </div>
+                </li>
+            </a>
+            <a href="ProductDesign.html">
+                <li>
+                    <div id="taskbartext">
+                         Product Design
+                    </div>
+                </li>
+            </a>
+            <a href="TextilesTechnology.html">
+                <li>
+                    <div id="taskbartext">
+                        Textiles Technology
+                    </div>
+                </li>
+            </a>
+            <a href="FoodAndNutrition.html">
+                <li>
+                    <div id="taskbartext">
+                        Food & Nutrition
+                    </div>
+                </li>
+            </a>
+        </ol>
+    </li>
+</a>
+        <a href="Homepage.html">
+            <li>
+                <div id="taskbartext">
+                    Home
+                </div>
+            </li>
+        </a>
     </ol>
-  </li>
-        <li><div id="taskbartext"> <a href="Homepage.html">Home</div></li>
-</ol>
-
 <div id="gallery-background">   
     <div id="titlebg"></div>
         <div id="pagetitle">
+            <div id="shadowtext">
             Food & Nutrition
+            </div>
             <div id="bodyblock">
                 <div id="bodycontent">
                     <br>
@@ -118,6 +147,10 @@
                 </div>
             </div>
         </div> 
+    <br>
+<div id="bodyblock">
+    <Div id="bodycontentpicture">
+        <br><br><br>
     <a rel="FN-gallery" class="fancybox" href="Graphics/Food%20Nutrition%20Photos/burgers.jpg"><img src="Graphics/Food%20Nutrition%20Photos/burgers.jpg" width="200" height="150"></a>
 
     <a rel="FN-gallery" class="fancybox" href="Graphics/Food%20Nutrition%20Photos/chocMuffin.jpg"><img src="Graphics/Food%20Nutrition%20Photos/chocMuffin.jpg" width="200" height="150"></a>
@@ -134,6 +167,10 @@
 
     <a rel="FN-gallery" class="fancybox" href="Graphics/Food%20Nutrition%20Photos/steakPie.jpg"><img src="Graphics/Food%20Nutrition%20Photos/steakPie.jpg" width="200" height="150"></a>
 </div>
+    <br><br>
+    </div>
+</div>
+    <br><br>
 
 <script type="text/javascript">
 $(document).ready(function() {
