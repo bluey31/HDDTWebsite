@@ -34,7 +34,7 @@ input { /* the input boxes in the contact page*/
     display: block;
     color: #ffffff;
     margin-top: -10px;       /* if the gcse course box doesnt match with the rest change these margins*/
-    margin-bottom: -15px;
+    margin-bottom: -19px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
@@ -158,7 +158,7 @@ ol li {
     display: inline-block;
     vertical-align: middle;
     float: right;
-    top: -14px; /*distance every block is away from top*/
+    top: -10px; /*distance every block is away from top*/
     margin-right: px;
     position: relative;
     padding: 40px 4vw;
@@ -179,7 +179,7 @@ ol li:hover {
 ol li ol {
     padding: 0;
     position: absolute;
-    top: 120px; /*distance the dropdown is from the top*/
+    top: 112px; /*distance the dropdown is from the top*/
     width: 150px;
     height: 50px;
     display: none;
