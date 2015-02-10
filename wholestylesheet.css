@@ -34,7 +34,7 @@ input { /* the input boxes in the contact page*/
     display: block;
     color: #ffffff;
     margin-top: -10px;       /* if the gcse course box doesnt match with the rest change these margins*/
-    margin-bottom: -19px;
+    margin-bottom: -18px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
