@@ -10,13 +10,18 @@ input { /* the input boxes in the contact page*/
 #courses { /*the explore courses button in the homepage*/
     text-align: center;
     display: block;
-    background-color: #eeeeee;
+    background-color: #dddddd;
     transition: all 0.2s;
     cursor: pointer;
     color: #000000;
+    font-weight: 400;
+    font-size: 18px;
 }
 #courses:hover { /* hover for the courses button above*/
-    background-color: #bbbbbb;
+    background-color: #888888;
+    box-shadow: 0px 10px 20px #bbbbbb;
+    font-size: 23px;
+    color: #ffffff;
 }
 
 #center   /*just used to center text*/
@@ -135,6 +140,7 @@ input { /* the input boxes in the contact page*/
     color: #ffffff;
     background-color: #3e2723;
     text-align: center;
+    box-shadow: 0px 0px 60px #000000;
 }
 
 ul { /* all unordered lists*/
@@ -175,6 +181,8 @@ ol li:hover {
     background: #6a504b;
     color: #ffffff;
     opacity: 1;
+    box-shadow: 0px 10px 25px #000000;
+
 }
 ol li ol {
     padding: 0;
@@ -190,6 +198,7 @@ ol li ol {
     -ms-transition: opacity 0.3s, width 0.2s;
     -o-transition: opacity 0.3s, width 0.2s;
     transition: opacity 0.3s, width 0.2s;
+    transition: box-shadow 0.4s;
 }
 ol li ol li { /*the box that drops down*/
     background: #6a504b; 
@@ -197,6 +206,8 @@ ol li ol li { /*the box that drops down*/
     color: #ffffff;
     width: 27vw;
     transition: opacity 0.4s, background 0.2s;
+    transition: box-shadow 0.4s;
+
 }
 ol li ol li:hover { background: #3e2723; } /* also the box that drops down?*/
     ol li:hover ol {
@@ -204,8 +215,15 @@ ol li ol li:hover { background: #3e2723; } /* also the box that drops down?*/
     opacity: 1;
     visibility: visible;
     margin-right: 7vw;
-}
 
+}
+#bottombanner{
+    display: block;
+    left: -10px;
+    bottom: -10px;
+    background-color: #111111;
+    height: 50px;
+}
 a{
     height: 100%;
     width: 100%;
